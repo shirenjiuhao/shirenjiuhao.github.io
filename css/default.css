@@ -1,7 +1,5 @@
 /**create 2017/03/05 css*/
-body { padding-top: 50px; }
-*{margin:0;border:0;}
-ul{list-style:none;}
+
 a{text-decoration: none;color:#58B7FF;}
 a:hover{color:#1D8CE0;}
 /*导航*/
@@ -22,8 +20,8 @@ a:hover{color:#1D8CE0;}
 .s-card ul{margin-left: -20px;margin-top:10px;margin-bottom: 10px;}
 .s-card ol{margin-top:10px;margin-bottom: 10px;}
 .aside{width:30%;}
-.aside ul li ol{border:1px solid #e8e8e8;border-radius: 4px;background: #eee;color:#555;padding: 20px 40px;}
-.aside ul li p{color:#1D8CE0;padding-bottom: 10px;}
+.aside ul li ol,aside ul li ol{border:1px solid #e8e8e8;border-radius: 4px;background: #eee;color:#555;padding: 20px 40px;}
+.aside ul li p,aside ul li ol{color:#1D8CE0;padding-bottom: 10px;}
 .banner { background: url('../img/banner_top.jpg') center top no-repeat #e7e7e7; overflow: hidden; position: relative; font-size: 14px ;margin: 20px;margin-top: 0;}
 .headerPic { width: 130px; height: 130px; border-radius: 100%; overflow: hidden; border: #FFF 4px solid; float: left; margin: 40px }
 .headerPic a { display: block; padding-top: 97px; width: 160px; background: url('../img/info.jpg') no-repeat; background-size: 130px 130px; }
@@ -37,6 +35,6 @@ a:hover{color:#1D8CE0;}
 .guanzhu { overflow: hidden; margin-top: 20px; color: #000; text-align: center }
 .guanzhu span { color:#1D8CE0; font-weight: bold; font-size: 14px; }
 footer { background: #f3f3f3; margin-top: 20px; }
-footer ul { padding:10px 20px; text-align: right; }
+footer ul { padding:10px 20px; text-align: center; }
 footer a { text-decoration: underline; }
 .clearfloat { clear: both; height: 0; line-height: 0px; }
