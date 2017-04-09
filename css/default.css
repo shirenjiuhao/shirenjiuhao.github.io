@@ -1,0 +1,42 @@
+/**create 2017/03/05 css*/
+body { padding-top: 50px; }
+*{margin:0;border:0;}
+ul{list-style:none;}
+a{text-decoration: none;color:#58B7FF;}
+a:hover{color:#1D8CE0;}
+/*导航*/
+.g-header{
+	padding:20px;
+	/* display: flex;
+	justify-content: flex-start; */
+}
+
+.g-header a:not(:first-child){margin-left: 20px;}
+
+.container-box{display: flex;padding:20px 20px 20px 0;}
+.g-card-box{flex:1;margin-left: -20px;}
+.g-card-time{text-indent: 10;padding-bottom: 10px;color:#1D8CE0;}
+.g-card{border:1px solid #e8e8e8;padding: 20px;background: #eee}
+.g-card p{padding:20px 0;color: #555;}
+.s-card h2{padding-bottom:10px;border-bottom: 1px solid #7fc5fd;}
+.s-card ul{margin-left: -20px;margin-top:10px;margin-bottom: 10px;}
+.s-card ol{margin-top:10px;margin-bottom: 10px;}
+.aside{width:30%;}
+.aside ul li ol{border:1px solid #e8e8e8;border-radius: 4px;background: #eee;color:#555;padding: 20px 40px;}
+.aside ul li p{color:#1D8CE0;padding-bottom: 10px;}
+.banner { background: url('../img/banner_top.jpg') center top no-repeat #e7e7e7; overflow: hidden; position: relative; font-size: 14px ;margin: 20px;margin-top: 0;}
+.headerPic { width: 130px; height: 130px; border-radius: 100%; overflow: hidden; border: #FFF 4px solid; float: left; margin: 40px }
+.headerPic a { display: block; padding-top: 97px; width: 160px; background: url('../img/info.jpg') no-repeat; background-size: 130px 130px; }
+.headerPic a span { display: block; margin-top: 63px; padding-top: 8px; width: 130px; height: 55px; font-size: 12px; text-align: center; line-height: 20px; color: #fff; background: rgba(0, 0, 0, .5); -webkit-transition: margin-top .2s ease-in-out; -moz-transition: margin-top .2s ease-in-out; -o-transition: margin-top .2s ease-in-out; transition: margin-top .2s ease-in-out; }
+.headerPic a:hover span { display: block; margin-top: -5px; }
+.websiteDescription { position: absolute; top: 26%; left:200px; background: rgba(92,170,174,.8); color: white; opacity: 0; -webkit-transition: opacity .75s ease-out; -moz-transition: opacity .75s ease-out; -o-transition: opacity .75s ease-out; transition: opacity .75s ease-out; padding: 20px }
+.websiteDescription:hover { opacity: 1; }
+.websiteDescription h2 { color: #FFF; font-size: 16px; margin-bottom: 10px }
+
+.weixin img { width: 100%;}
+.guanzhu { overflow: hidden; margin-top: 20px; color: #000; text-align: center }
+.guanzhu span { color:#1D8CE0; font-weight: bold; font-size: 14px; }
+footer { background: #f3f3f3; margin-top: 20px; }
+footer ul { padding:10px 20px; text-align: right; }
+footer a { text-decoration: underline; }
+.clearfloat { clear: both; height: 0; line-height: 0px; }
