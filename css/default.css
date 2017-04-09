@@ -1,5 +1,6 @@
 /**create 2017/03/05 css*/
-
+body { padding-top: 50px; }
+ul{list-style: none}
 a{text-decoration: none;color:#58B7FF;}
 a:hover{color:#1D8CE0;}
 /*导航*/
