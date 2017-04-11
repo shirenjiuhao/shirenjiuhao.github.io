@@ -3,7 +3,7 @@
 	var canvas = document.getElementById(id);
  	var w = canvas.width = window.screen.width;
  	//var h = canvas.height = window.screen.height;
- 	var h = canvas.height = 200;
+ 	var h = canvas.height = 100;
  	var cxt = canvas.getContext('2d');
  	var words = Array(256).join('1').split('');
  	var text = '';
