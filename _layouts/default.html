@@ -6,6 +6,7 @@
 	　　<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="/css/default.css">
+		<script src='/js/drawHask.js'></script>
 	</head>
 　  <body>
 		<header>
@@ -16,6 +17,11 @@
 				</ul>
 		    </nav>
 		</header>
+		<div><canvas id='canvas'></canvas></div>
+		<script>
+			var a = drawHake('canvas')
+			setInterval(a,30);
+		</script>
 		<div class='container'>
 			<div class='col-lg-8 col-md-8 col-sm-8'>
 				{{ content }}
@@ -57,5 +63,6 @@
 		      Powered by Git
 		    </ul>
 	    </footer>
+
 　  </body>
 </html>
